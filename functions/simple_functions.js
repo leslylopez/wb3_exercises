@@ -27,3 +27,26 @@ favoriteThings();
 whyImHere ();
 
 favoritePlace();
+
+
+function displayNameAndAge (name,age) {
+
+    let message = name + " is " + age;
+    console.log(message);
+}
+let someName ="Lesly";
+let someAge = "22";
+
+//providing the values
+displayNameAndAge (someName,someAge);
+
+displayNameAndAge ("Lesly", 22);
+displayNameAndAge ("Liz", 22);
+
+let distance = -123456 
+let positiveDistance = Math.abs(distance);
+
+console.log (positiveDistance)
+
+
+
