@@ -2,10 +2,10 @@
 
 function displayMailingLabel(name, address, city, state, zip){
 
-console.log(name);
-console.log(address);
+//console.log(name);
+//console.log(address);
 //string interpretation
-console.log(`${city}, ${state}, ${zip}`);
+console.log(`I live in ${city}, ${state}, ${zip}`);
 
 }
 
@@ -21,9 +21,9 @@ function displayAddNumbers (num1 , num2){
 
 
 
-    let someNumber = Number(num1) + Number(num2)
+    let totalNumber = Number(num1) + Number(num2)
 
-    console.log ( num1 + "+" + num2 +  "=" + someNumber );
+    console.log ( num1 + "+" + num2 +  "=" + totalNumber );
     
 
 }
@@ -55,4 +55,4 @@ else {
 }
 
 displayReceipt (20,50);
-displayReceipt (50,20)
+displayReceipt (70,40)
