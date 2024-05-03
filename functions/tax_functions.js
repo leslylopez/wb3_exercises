@@ -61,4 +61,6 @@ let taxRate = 0;
 
 }
 
+// let grossPay = 
+
 console.log ("Your federal tax is $" + getFederalTax(750,0));
